@@ -1,0 +1,8 @@
+As a user looking for items, I want to post what I am looking for, such that donors can contact me to give me what im looking for.
+Story:
+    Scenario: I am looking items I need
+    Given: The user has navigated to the page
+    When: The user post an list of items they need
+    Then: Another user finds the user looking for an item they have
+    When: The user get contacted by the other user about having the item
+    Then: The user discusses how to obatin the item

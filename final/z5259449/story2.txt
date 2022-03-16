@@ -1,0 +1,10 @@
+As a donating user, I want to search for potential receiver, such that I can find people who need the item faster.
+Story:
+    Scenario: I have excess Items I want to give
+    Given: The user has navigated to the page
+    When: The user uses a search bar
+    And: Entered the name of item
+    Then: The system finds post with names of item in description
+    Given: The user is given a list of people looking for item in description
+    When: The user finds a person to give to 
+    Then: The user uses the contact given and contacts to give item

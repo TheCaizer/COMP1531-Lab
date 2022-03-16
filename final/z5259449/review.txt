@@ -1,0 +1,21 @@
+1.In line 35, 37, 42, and 47 you repeated yourself multiple times and violates the
+Don't Repeat Yourself (DRY) principle in software engineering as it makes your code
+longer than it needs to be. You can imporve this by creating a dictonary and map the
+values to the a function or a string and call function or print the string.
+2.On line 13 and 23 you used ceil(random) and it can be improved through the Keep it simple
+stupid (KISS) principle which makes the code more complicated than it needs to be which
+can cause errors. As you can improve this by replacing it with the function randint()
+, which you can also remove the 'from math import ceil' line.
+3.Throughout the code there are no comments that explains the code, which makes it
+difficult for other people to understand and document what this code does without 
+any explanation (Opacity). You can fix the problem by adding comments after every line.
+4.Throughout the code you didnt implement any function to make the code shorter,
+which violates the top-down thinking and doesnt abstract the code to simpler case,
+making it harder to edit and reuse. You can fix this by implementing functions
+thoughtout the code such as breaking the rolling of dice into one function, rerolling()
+into another function and printing result into another function.
+5.There are no exception and error handling within line 21 to 26 as well as throughout 
+the code, for example if the player input an invalid input eg. 8, 9 or a, there
+would be an error but there are no exception or error handling that would happen in
+the code which crashes the code. To fix this you need to raise an exception when an 
+invalid input is put in or a number outside the range to handle the error.
